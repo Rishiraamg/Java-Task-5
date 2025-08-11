@@ -1,5 +1,6 @@
 import java.util.*;
-
+//BANK ACCOUNT SIMULATION CREATED BY RISHIRAAM USING OOP
+//BY USING A CLASS CALLED ACCOUNT WITH METHODS TO CREATE ACCOUNT, WITHDRAW, DEPOSIT MONEY AND SHOW TRANSACTION DETAILS
 class Account {
     private String accno;
     private String accholdername;
@@ -113,3 +114,4 @@ public class Task5 {
         }
     }
 }
+
