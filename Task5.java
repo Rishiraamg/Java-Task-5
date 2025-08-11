@@ -72,9 +72,8 @@ public class Task5 {
 
         Account acc1 = new Account(accNumber, accName, initialBalance);
         System.out.println("\nWelcome to the Bank Simulation using JAVA");
-
-        boolean running = true;
-        while (running) {
+        
+        while (true) {
             System.out.println("1. Deposit");
             System.out.println("2. Withdraw");
             System.out.println("3. Check Balance");
@@ -114,4 +113,5 @@ public class Task5 {
         }
     }
 }
+
 
